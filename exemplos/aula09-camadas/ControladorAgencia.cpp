@@ -4,15 +4,13 @@
 void ControladorAgencia::executa() {
 
     // Le uma conta e cria ela
-    int numConta = _view.leConta();
-    Conta conta(numConta, "");
+    Conta conta = _view.leConta();
 
     // Exibe o menu
     int opcao = 0;
     do {
         _view.exibeMenu();
         opcao = _view.leOpcao();
-
         trataOpcao(opcao, conta);
 
     } while (opcao != 4);
@@ -22,17 +20,17 @@ void ControladorAgencia::executa() {
 void ControladorAgencia::trataOpcao(int opcao, Conta &conta) {
 
     if (opcao == 1) {
-        // TODO: implementar depois os metodos
-        //double quantia = _view.exibeSaque();
-        //conta.retira(quantia);
-        //_view.imprimeExtrato(conta);
+        double quantia = _view.exibeSaque();
+        conta.retira(quantia);
+        _view.exibeExtrato(conta);
     } else if (opcao == 2) {
-        // TODO: implementar o deposito
+        double quantia = _view.exibeSaque();
+        conta.deposita(quantia);
+        _view.exibeExtrato(conta);
     } else if (opcao == 3) {
-        // TODO: implementar a transferencia
+        // TODO: implementar transferencia
     } else if (opcao != 4) {
-        // TODO: imprimir mensagem de erro
-        //_view.exibeErroOpcao();
+        _view.exibeErroOpcaoInvalida();
     }
 
 

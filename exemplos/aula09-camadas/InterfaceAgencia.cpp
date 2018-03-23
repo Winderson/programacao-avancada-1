@@ -1,19 +1,20 @@
 #include <iostream>
+
 using namespace std;
 
 #include "InterfaceAgencia.h"
 
-int InterfaceAgencia::leConta() {
+Conta InterfaceAgencia::leConta() {
     cout << "$$$ BANK DINHEIROS $$$" << endl << endl;
     cout << "Digite o numero da conta: ";
 
     int numero = 0;
     cin >> numero;
 
-    // TODO: ler o nome do cliente
-    // TODO: retornar um objeto do tipo conta
+    string nome = "";
+    getline(cin, nome);
 
-    return  numero;
+     return Conta(numero, nome);
 }
 
 void InterfaceAgencia::exibeMenu() {
@@ -31,4 +32,29 @@ int InterfaceAgencia::leOpcao() {
 
     cin >> opcao;
     return opcao;
+}
+
+void InterfaceAgencia::exibeErroOpcaoInvalida() {
+    cerr << "Opcao Invalida!" << endl;
+}
+
+double InterfaceAgencia::exibeDeposito() {
+    cout << "Digite a quantia para deposito: ";
+    double quantia = 0;
+    cin >> quantia;
+    return quantia;
+}
+
+double InterfaceAgencia::exibeSaque() {
+    cout << "Digite a quantia para saque: ";
+    double quantia = 0;
+    cin >> quantia;
+    return quantia;
+}
+
+void InterfaceAgencia::exibeExtrato(Conta &conta){
+    cout << "### EXTRATO ###" << endl;
+    cout << "Cliente.........: " << conta.getCliente() << endl;
+    cout << "Saldo...........: " << conta.getSaldo() << endl;
+
 }

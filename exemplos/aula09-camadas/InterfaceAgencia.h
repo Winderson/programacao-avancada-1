@@ -1,18 +1,21 @@
 #ifndef _INTERFACE_AGENCIA_H_
 #define _INTERFACE_AGENCIA_H_
 
+#include "Conta.h"
+
 class InterfaceAgencia {
 public:
 
-    int leConta();
+    Conta leConta();
 
     void exibeMenu();
     int leOpcao();
 
-//    void exibeErro();
+    void exibeErroOpcaoInvalida();
 
-//    void exibeDeposito();
-//    void exibeSaque();
+    double exibeDeposito();
+    double exibeSaque();
+    void exibeExtrato(Conta &conta);
 };
 
 

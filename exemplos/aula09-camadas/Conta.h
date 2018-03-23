@@ -17,6 +17,10 @@ public:
         return _saldo / 100;
     }
 
+    std::string getCliente() {
+        return _cliente;
+    }
+
     void deposita(double quantia) {
         _saldo += int(quantia * 100);
     }
