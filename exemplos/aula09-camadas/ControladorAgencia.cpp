@@ -5,6 +5,8 @@ void ControladorAgencia::executa() {
 
     // Le uma conta e cria ela
     Conta conta = _view.leConta();
+    _contas[_numContas] = new Conta(conta);
+    _numContas++;
 
     // Exibe o menu
     int opcao = 0;
@@ -24,7 +26,7 @@ void ControladorAgencia::trataOpcao(int opcao, Conta &conta) {
         conta.retira(quantia);
         _view.exibeExtrato(conta);
     } else if (opcao == 2) {
-        double quantia = _view.exibeSaque();
+        double quantia = _view.exibeDeposito();
         conta.deposita(quantia);
         _view.exibeExtrato(conta);
     } else if (opcao == 3) {

@@ -14,7 +14,7 @@ Conta InterfaceAgencia::leConta() {
     string nome = "";
     getline(cin, nome);
 
-     return Conta(numero, nome);
+    return Conta(numero, nome);
 }
 
 void InterfaceAgencia::exibeMenu() {
@@ -52,7 +52,7 @@ double InterfaceAgencia::exibeSaque() {
     return quantia;
 }
 
-void InterfaceAgencia::exibeExtrato(Conta &conta){
+void InterfaceAgencia::exibeExtrato(Conta &conta) {
     cout << "### EXTRATO ###" << endl;
     cout << "Cliente.........: " << conta.getCliente() << endl;
     cout << "Saldo...........: " << conta.getSaldo() << endl;

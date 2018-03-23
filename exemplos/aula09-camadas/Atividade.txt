@@ -1,0 +1,21 @@
+1. Crie uma classe Produto
+    - nome, descricao, preco
+    - Construtores / getters / setters
+
+2. Crie LojinhaControle
+    - O controle tera um vetor produtos
+    - O cliente pode selecionar varios produtos
+    - O cliente pode fechar o pedido
+    - O sistema vai imprimir o total das compras
+
+3. Crie InterfaceLojinha
+    - Exibir o menu:
+            1) escolher produto
+            2) listar carrinho de compras
+            3) fechar pedido
+    - Imprime os produtos que o cliente pode comprar
+    - Permite o cliente escolher um produto
+    - Imprime os produtos escolhidos pelo cliente
+
+Implementar seguindo os padroes do MVC
+Treinar a manipulacao de ponteiros + objetos

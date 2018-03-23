@@ -13,6 +13,14 @@ public:
         // vazio
     }
 
+    Conta(const Conta &copia) {
+        _numero = copia._numero;
+        _saldo = copia._saldo;
+        _cliente = copia._cliente;
+    }
+
+
+
     double getSaldo() {
         return _saldo / 100;
     }
