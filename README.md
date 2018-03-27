@@ -14,6 +14,7 @@
 | 15/03/18 | Aula 08 - Classes e objetos: passagem de objetos por referência                  | Cap. 8          |
 | 21/03/18 | Aula 09 - Classes e objetos: matrizes de objetos, alocação dinâmica              | Cap. 8          |
 | 22/03/18 | Aula 10 - Atividade prática: classes e objetos                                   |                 |
+<!--
 | 28/03/18 | Aula 11 - Herança                                                                | Cap. 9          |
 | 29/03/18 | Aula 12 - Herança múltipla                                                       | Cap. 9          |
 | 04/04/18 | Aula 13 - Atividade prática: herança                                             |                 |
@@ -23,7 +24,6 @@
 | 18/04/18 | Aula 17 - Atividade prática: classes abstratas e polimorfismo                    | Cap. 12         |
 | 19/04/18 | Aula 18 - Revisão UML                                                            | Cap. 12         |
 | 25/04/18 | :star: Prova Bimestral                                                           |                 |
-<!--
 | 26/04/18 | Correção da Prova                                                                |                 |
 | 02/05/18 | Aula 19 - Sobrecarga de operadores                                               | Cap. 12         |
 | 03/05/18 | Aula 20 - Atividade prática: sobrecarga de operadores                            |                 |
@@ -39,16 +39,24 @@
 | 06/06/18 | Aula 30 - Manipulação de arquivos                                                | Cap. 14         |
 | 07/06/18 | Aula 31 - Atividade prática: manipulação de arquivos                             |                 |
 | 13/06/18 | Aula 32 - Padrões de projeto                                                     | Design Patterns |
--->
 | 14/06/18 | :star: Trabalho prático - apresentação                                           |                 |
 | 20/06/18 | :star: Prova Bimestral                                                           |                 |
 | 21/06/18 | Correção da Prova                                                                |                 |
 | 27/06/18 | :star: Segunda Chamada                                                           |                 |
 | 05/07/18 | :star: Exame Final                                                               |                 |
+-->
 
 ## :green_book: Provas
 
+- 1o. Bimestre: 25/04/18 
+- 2o. Bimestre: 20/06/18
+- Segunda Chamada: 27/06/18
+- Exame Final: 05/07/18
+
 ## :blue_book: Trabalhos
+
+- 1o. Bimestre: 25/04/18
+- 2o. Bimestre: 14/06/18
 
 <!--
 - Classes e objetos
