@@ -1,0 +1,11 @@
+1) Criar uma classe ContaPoupanca
+    - sobrescrever o metodo imprimeExtrato usando @ como frufru
+
+2) Implementar na classe conta o metodo calculaJurosDiarios
+    que aplica juros diarios na conta
+
+3) Sobrescrever o metodo calculaJurosDiarios nas classes filhas
+    - ContaCorrente: 0,04%
+    - ContaPoupanca: 0,6%
+
+4) Criar a classe ContaSalario que nao permite deposito!
