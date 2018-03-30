@@ -15,7 +15,7 @@
 | 21/03/18 | Aula 09 - Classes e objetos: matrizes de objetos, alocação dinâmica              | [2] Cap. 8      |
 | 22/03/18 | Aula 10 - Atividade prática: classes e objetos                                   |                 |
 | 28/03/18 | Aula 11 - Herança                                                                | [2] Cap. 9      |
-| 29/03/18 | Aula 12 - Herança múltipla                                                       | [2] Cap. 9      |
+| 29/03/18 | Aula 12 - Herança múltipla                                                       | [2] Cap. 9 <br> [3] Cap. 12     |
 <!--
 | 04/04/18 | Aula 13 - Atividade prática: herança                                             |                 |
 | 05/04/18 | Aula 14 - Ponteiros                                                              | [2] Cap. 11     |
