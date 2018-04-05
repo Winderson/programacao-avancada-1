@@ -74,3 +74,8 @@
 - [5] [LEE, Richard C.; Tepfenhart, William M. **UML e C++: guia prático de desenvolvimento orientado a objeto**. Makron Books, 2000](http://utp.bv3.digitalpages.com.br/users/publications/9788534613644/)
 - [6] GAMMA. ERICH; GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. **Padrões de projeto: soluções reutilizáveis de software orientado a objetos**. Porto Alegre, RS: Bookman, 2000.
 
+- [Git - Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [Git - Guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+
+
+
